@@ -19,9 +19,9 @@ body {
     margin: 20px auto;
     border: 1px solid $light-grey;
     border-radius: 20px 20px;
-    -webkit-box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
-	-moz-box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
-	box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
+    -webkit-box-shadow: 1px 1px 20px 4px darken($light-grey, 12%);
+	-moz-box-shadow: 1px 1px 20px 4px darken($light-grey, 12%);
+	box-shadow: 1px 1px 20px 4px darken($light-grey, 12%);
     padding: 3%;
 }
 
