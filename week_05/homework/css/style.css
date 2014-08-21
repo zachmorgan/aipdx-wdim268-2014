@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 /* line 11, ../sass/style.scss */
 body {
-  background: #777777;
+  background: #a0a0a0;
   font-family: "Georgia", serif;
 }
 
@@ -10,19 +10,22 @@ body {
   background: #fff;
   width: 60%;
   margin: 20px auto;
-  border: 1px solid #c7c7c7;
+  border: 1px solid #d1d1d1;
   border-radius: 20px 20px;
+  -webkit-box-shadow: 1px 1px 18px 4px #949494;
+  -moz-box-shadow: 1px 1px 18px 4px #949494;
+  box-shadow: 1px 1px 18px 4px #949494;
   padding: 3%;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .navigation-item {
   display: inline-block;
   list-style: none;
@@ -30,22 +33,22 @@ body {
   background-color: #484848;
   padding: 6px 9px;
 }
-/* line 38, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .navigation-item:first-child {
   border-top-left-radius: 5px 5px;
   border-bottom-left-radius: 5px 5px;
 }
-/* line 43, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .navigation-item:last-child {
   border-top-right-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
 }
-/* line 48, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .navigation-item:hover {
   border-color: #1b90dd;
   background-color: #1a8ad4;
 }
-/* line 53, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .navigation-item a {
   font-family: "Verdana", sans-serif;
   color: #fff;
@@ -53,103 +56,104 @@ body {
   font-size: 0.8em;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .main-content {
   float: left;
   width: 75%;
   padding-top: 40px;
 }
-/* line 66, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .main-content article {
   margin-bottom: 40px;
 }
-/* line 70, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .main-content p {
   margin-top: 15px;
   font-size: 1em;
   line-height: 1.2em;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .title {
   font-family: "Verdana", sans-serif;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .title-link {
   text-decoration: none;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .title-page {
   font-family: "Lobster", cursive;
   font-size: 4.5em;
-  color: #c7c7c7;
+  color: #d1d1d1;
+  margin-bottom: 35px;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .title-heading {
   font-size: 1.75em;
   color: #1b90dd;
-  padding: 10px 0;
+  margin-bottom: 3px;
 }
 
-/* line 97, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .title-subheading {
   font-size: 1.3em;
   color: #1b90dd;
-  padding: 5px 0;
+  margin-bottom: 3px;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .title-side {
   margin-bottom: 5px;
 }
 
-/* line 107, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .post-info {
   font-size: 0.3em;
-  color: #c7c7c7;
+  color: #d1d1d1;
 }
 
-/* line 112, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .main-quote {
   float: right;
   width: 190px;
   padding: 20px 35px 20px 25px;
   margin: 25px 0 15px 10px;
-  background-color: #c7c7c7;
-  color: #777777;
+  background-color: #d1d1d1;
+  color: #a0a0a0;
   font-size: 1.1em;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .topic-pic {
   float: right;
-  background-color: #c7c7c7;
+  background-color: #d1d1d1;
   padding: 25px 15px;
   margin: 47px 0 5px 50px;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .sidebar {
   width: 25%;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-left: 60px;
   float: left;
   font-size: 0.9em;
 }
-/* line 136, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .sidebar .sidebar-item {
   line-height: 1.3em;
 }
-/* line 139, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .sidebar .sidebar-item a {
   text-decoration: none;
   color: #1b90dd;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 footer {
   float: left;
   font-size: 0.8em;

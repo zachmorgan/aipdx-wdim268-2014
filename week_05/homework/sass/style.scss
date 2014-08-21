@@ -3,8 +3,8 @@
 $title-font: 'Lobster', cursive;
 $heading-font: 'Verdana', sans-serif;
 $body-font: 'Georgia', serif;
-$light-grey: #c7c7c7;
-$medium-grey: #777;
+$light-grey: #d1d1d1;
+$medium-grey: #a0a0a0;
 $dark-grey: #484848;
 $cyan: #1b90dd;
 
@@ -19,6 +19,9 @@ body {
     margin: 20px auto;
     border: 1px solid $light-grey;
     border-radius: 20px 20px;
+    -webkit-box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
+	-moz-box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
+	box-shadow: 1px 1px 18px 4px rgba(148,148,148,1);
     padding: 3%;
 }
 
@@ -86,18 +89,19 @@ body {
     font-family: $title-font;
     font-size: 4.5em;
     color: $light-grey;
+    margin-bottom: 35px;
 }
 
 .title-heading {
     font-size: 1.75em;
     color: $cyan;
-    padding: 10px 0;
+    margin-bottom: 3px;
 }
 
 .title-subheading {
     font-size: 1.3em;
     color: $cyan;
-    padding: 5px 0;
+    margin-bottom: 3px;
 }
 
 .title-side {
@@ -128,7 +132,7 @@ body {
 
 .sidebar {
     width: 25%;
-    margin-top: 50px;
+    margin-top: 60px;
     padding-left: 60px;
     float: left;
     font-size: 0.9em;
